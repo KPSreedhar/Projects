@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C++ and OOPs Quiz</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button {
+            width: 80px;
+            height: 50px;
+            background-color: rgb(62, 55, 56);
+            color: blanchedalmond;
+            margin :40px auto auto 20px ;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>C++ and OOP Quiz</h1>
+    <form action="" method="POST">
+         
+            <p>1. What is the correct syntax to declare a variable in C++?</p>
+            <input type="radio" id="q1a1" name="q1" value="int variable;" required>
+            <label for="q1a1">int variable;</label><br>
+            <input type="radio" id="q1a2" name="q1" value="variable int;">
+            <label for="q1a2">variable int;</label><br>
+            <input type="radio" id="q1a3" name="q1" value="int; variable">
+            <label for="q1a3">int; variable</label><br>
+            <input type="radio" id="q1a4" name="q1" value="int variable">
+            <label for="q1a4">int variable</label>
+          
+        
+         
+            <p>2. What is encapsulation in OOP?</p>
+            <input type="radio" id="q2a1" name="q2" value="Wrapping data and functions into a single unit" required>
+            <label for="q2a1">Wrapping data and functions into a single unit</label><br>
+            <input type="radio" id="q2a2" name="q2" value="The ability of a function to call itself">
+            <label for="q2a2">The ability of a function to call itself</label><br>
+            <input type="radio" id="q2a3" name="q2" value="The ability to derive a new class from an existing one">
+            <label for="q2a3">The ability to derive a new class from an existing one</label><br>
+            <input type="radio" id="q2a4" name="q2" value="The ability to use the same function name for different purposes">
+            <label for="q2a4">The ability to use the same function name for different purposes</label>
+          
+        
+         
+            <p>3. What is the purpose of a constructor in C++?</p>
+            <input type="radio" id="q3a1" name="q3" value="To initialize objects" required>
+            <label for="q3a1">To initialize objects</label><br>
+            <input type="radio" id="q3a2" name="q3" value="To destroy objects">
+            <label for="q3a2">To destroy objects</label><br>
+            <input type="radio" id="q3a3" name="q3" value="To allocate memory for objects">
+            <label for="q3a3">To allocate memory for objects</label><br>
+            <input type="radio" id="q3a4" name="q3" value="To copy objects">
+            <label for="q3a4">To copy objects</label>
+          
+        
+         
+            <p>4. What is inheritance in OOP?</p>
+            <input type="radio" id="q4a1" name="q4" value="The ability to create a new class from an existing class" required>
+            <label for="q4a1">The ability to create a new class from an existing class</label><br>
+            <input type="radio" id="q4a2" name="q4" value="The ability of a function to call itself">
+            <label for="q4a2">The ability of a function to call itself</label><br>
+            <input type="radio" id="q4a3" name="q4" value="The ability to wrap data and functions into a single unit">
+            <label for="q4a3">The ability to wrap data and functions into a single unit</label><br>
+            <input type="radio" id="q4a4" name="q4" value="The ability to use the same function name for different purposes">
+            <label for="q4a4">The ability to use the same function name for different purposes</label>
+          
+        
+         
+            <p>5. What is polymorphism in OOP?</p>
+            <input type="radio" id="q5a1" name="q5" value="The ability to use the same function name for different purposes" required>
+            <label for="q5a1">The ability to use the same function name for different purposes</label><br>
+            <input type="radio" id="q5a2" name="q5" value="The ability to create a new class from an existing class">
+            <label for="q5a2">The ability to create a new class from an existing class</label><br>
+            <input type="radio" id="q5a3" name="q5" value="The ability to wrap data and functions into a single unit">
+            <label for="q5a3">The ability to wrap data and functions into a single unit</label><br>
+            <input type="radio" id="q5a4" name="q5" value="The ability of a function to call itself">
+            <label for="q5a4">The ability of a function to call itself</label>
+          
+        
+         
+            <p>6. What is the output of the following code?<br>
+            
+            #include &lt;iostream&gt;<br>
+            using namespace std;<br>
+            class Base {<br>
+            public:<br>
+                virtual void show() { cout &lt;&lt; "Base"; }<br>
+            };<br>
+            class Derived : public Base {<br>
+            public:<br>
+                void show() { cout &lt;&lt; "Derived"; }<br>
+            };<br>
+            int main() {<br>
+                Base *b;<br>
+                Derived d;<br>
+                b = &amp;d;<br>
+                b-&gt;show();<br>
+                return 0;<br>
+            }
+            </p>
+            <input type="radio" id="q6a1" name="q6" value="Base" required>
+            <label for="q6a1">Base</label><br>
+            <input type="radio" id="q6a2" name="q6" value="Derived">
+            <label for="q6a2">Derived</label><br>
+            <input type="radio" id="q6a3" name="q6" value="Compilation error">
+            <label for="q6a3">Compilation error</label><br>
+            <input type="radio" id="q6a4" name="q6" value="Runtime error">
+            <label for="q6a4">Runtime error</label>
+          
+        
+         
+            <p>7. What is a destructor in C++?</p>
+            <input type="radio" id="q7a1" name="q7" value="A special member function that is called when an object goes out of scope" required>
+            <label for="q7a1">A special member function that is called when an object goes out of scope</label><br>
+            <input type="radio" id="q7a2" name="q7" value="A special member function that is called when an object is created">
+            <label for="q7a2">A special member function that is called when an object is created</label><br>
+            <input type="radio" id="q7a3" name="q7" value="A function that allows objects to be cloned">
+            <label for="q7a3">A function that allows objects to be cloned</label><br>
+            <input type="radio" id="q7a4" name="q7" value="A function that overloads operators">
+            <label for="q7a4">A function that overloads operators</label>
+          
+        
+         
+            <p>8. What is an abstract class in C++?</p>
+            <input type="radio" id="q8a1" name="q8" value="A class that cannot be instantiated" required>
+            <label for="q8a1">A class that cannot be instantiated</label><br>
+            <input type="radio" id="q8a2" name="q8" value="A class with no members">
+            <label for="q8a2">A class with no members</label><br>
+            <input type="radio" id="q8a3" name="q8" value="A class with only static members">
+            <label for="q8a3">A class with only static members</label><br>
+            <input type="radio" id="q8a4" name="q8" value="A class derived from another class">
+            <label for="q8a4">A class derived from another class</label>
+          
+        
+         
+            <p>9. What is the purpose of the 'this' pointer in C++?</p>
+            <input type="radio" id="q9a1" name="q9" value="To refer to the current object" required>
+            <label for="q9a1">To refer to the current object</label><br>
+            <input type="radio" id="q9a2" name="q9" value="To refer to the base class object">
+            <label for="q9a2">To refer to the base class object</label><br>
+            <input type="radio" id="q9a3" name="q9" value="To refer to a global object">
+            <label for="q9a3">To refer to a global object</label><br>
+            <input type="radio" id="q9a4" name="q9" value="To refer to a static object">
+            <label for="q9a4">To refer to a static object</label>
+          
+        
+         
+            <p>10. What is the output of the following code?<br>
+           
+            #include &lt;iostream&gt;<br>
+            using namespace std;<br>
+            class Test {<br>
+            public:<br>
+                Test() { cout &lt;&lt; "Constructor"; }<br>
+                ~Test() { cout &lt;&lt; "Destructor"; }<br>
+            };<br>
+            int main() {<br>
+                Test t;<br>
+                return 0;<br>
+            }
+            </p>
+            <input type="radio" id="q10a1" name="q10" value="ConstructorDestructor" required>
+            <label for="q10a1">ConstructorDestructor</label><br>
+            <input type="radio" id="q10a2" name="q10" value="Constructor">
+            <label for="q10a2">Constructor</label><br>
+            <input type="radio" id="q10a3" name="q10" value="Destructor">
+            <label for="q10a3">Destructor</label><br>
+            <input type="radio" id="q10a4" name="q10" value="No output">
+            <label for="q10a4">No output</label>
+          
+        
+         
+            <p>11. Which of the following is not a feature of OOP?</p>
+            <input type="radio" id="q11a1" name="q11" value="Abstraction" required>
+            <label for="q11a1">Abstraction</label><br>
+            <input type="radio" id="q11a2" name="q11" value="Encapsulation">
+            <label for="q11a2">Encapsulation</label><br>
+            <input type="radio" id="q11a3" name="q11" value="Inheritance">
+            <label for="q11a3">Inheritance</label><br>
+            <input type="radio" id="q11a4" name="q11" value="Compilation">
+            <label for="q11a4">Compilation</label>
+          
+        
+         
+            <p>12. What is a pure virtual function in C++?</p>
+            <input type="radio" id="q12a1" name="q12" value="A function with no definition" required>
+            <label for="q12a1">A function with no definition</label><br>
+            <input type="radio" id="q12a2" name="q12" value="A function that calls itself">
+            <label for="q12a2">A function that calls itself</label><br>
+            <input type="radio" id="q12a3" name="q12" value="A function that has a definition">
+            <label for="q12a3">A function that has a definition</label><br>
+            <input type="radio" id="q12a4" name="q12" value="A function that is called only once">
+            <label for="q12a4">A function that is called only once</label>
+          
+        
+         
+            <p>13. What is operator overloading in C++?</p>
+            <input type="radio" id="q13a1" name="q13" value="Using the same operator for different data types" required>
+            <label for="q13a1">Using the same operator for different data types</label><br>
+            <input type="radio" id="q13a2" name="q13" value="Using different operators for the same data type">
+            <label for="q13a2">Using different operators for the same data type</label><br>
+            <input type="radio" id="q13a3" name="q13" value="Using the same function name for different purposes">
+            <label for="q13a3">Using the same function name for different purposes</label><br>
+            <input type="radio" id="q13a4" name="q13" value="Using a function to overload a class">
+            <label for="q13a4">Using a function to overload a class</label>
+          
+        
+         
+            <p>14. What is the correct way to create an object in C++?</p>
+            <input type="radio" id="q14a1" name="q14" value="ClassName objectName;" required>
+            <label for="q14a1">ClassName objectName;</label><br>
+            <input type="radio" id="q14a2" name="q14" value="objectName ClassName;">
+            <label for="q14a2">objectName ClassName;</label><br>
+            <input type="radio" id="q14a3" name="q14" value="ClassName = objectName;">
+            <label for="q14a3">ClassName = objectName;</label><br>
+            <input type="radio" id="q14a4" name="q14" value="objectName = ClassName;">
+            <label for="q14a4">objectName = ClassName;</label>
+          
+        
+         
+            <p>15. Which of the following is a type of inheritance in C++?</p>
+            <input type="radio" id="q15a1" name="q15" value="Single inheritance" required>
+            <label for="q15a1">Single inheritance</label><br>
+            <input type="radio" id="q15a2" name="q15" value="Multiple inheritance">
+            <label for="q15a2">Multiple inheritance</label><br>
+            <input type="radio" id="q15a3" name="q15" value="Multilevel inheritance">
+            <label for="q15a3">Multilevel inheritance</label><br>
+            <input type="radio" id="q15a4" name="q15" value="All of the above">
+            <label for="q15a4">All of the above</label>
+          
+        
+         
+            <p>16. What is a namespace in C++?</p>
+            <input type="radio" id="q16a1" name="q16" value="A declarative region that provides a scope to the identifiers inside it" required>
+            <label for="q16a1">A declarative region that provides a scope to the identifiers inside it</label><br>
+            <input type="radio" id="q16a2" name="q16" value="A way to access class members">
+            <label for="q16a2">A way to access class members</label><br>
+            <input type="radio" id="q16a3" name="q16" value="A way to include libraries">
+            <label for="q16a3">A way to include libraries</label><br>
+            <input type="radio" id="q16a4" name="q16" value="A way to declare functions">
+            <label for="q16a4">A way to declare functions</label>
+          
+        
+         
+            <p>17. What is an inline function in C++?</p>
+            <input type="radio" id="q17a1" name="q17" value="A function defined inside a class" required>
+            <label for="q17a1">A function defined inside a class</label><br>
+            <input type="radio" id="q17a2" name="q17" value="A function with no return type">
+            <label for="q17a2">A function with no return type</label><br>
+            <input type="radio" id="q17a3" name="q17" value="A function that returns an object">
+            <label for="q17a3">A function that returns an object</label><br>
+            <input type="radio" id="q17a4" name="q17" value="A function defined inside the header file">
+            <label for="q17a4">A function defined inside the header file</label>
+          
+        
+         
+            <p>18. What is a friend function in C++?</p>
+            <input type="radio" id="q18a1" name="q18" value="A function that can access private and protected members of a class" required>
+            <label for="q18a1">A function that can access private and protected members of a class</label><br>
+            <input type="radio" id="q18a2" name="q18" value="A function that is defined inside a class">
+            <label for="q18a2">A function that is defined inside a class</label><br>
+            <input type="radio" id="q18a3" name="q18" value="A function that can be called only by objects of a class">
+            <label for="q18a3">A function that can be called only by objects of a class</label><br>
+            <input type="radio" id="q18a4" name="q18" value="A function that returns a friend class">
+            <label for="q18a4">A function that returns a friend class</label>
+          
+        
+         
+            <p>19. What is the output of the following code?<br>
+            #include &lt;iostream&gt;<br>
+            using namespace std;<br>
+            class Test {<br>
+            public:<br>
+                Test() { cout &lt;&lt; "Constructor"; }<br>
+                ~Test() { cout &lt;&lt; "Destructor"; }<br>
+            };<br>
+            int main() {<br>
+                Test *t = new Test;<br>
+                delete t;<br>
+                return 0;<br>
+            }
+        </p>
+            <input type="radio" id="q19a1" name="q19" value="ConstructorDestructor" required>
+            <label for="q19a1">ConstructorDestructor</label><br>
+            <input type="radio" id="q19a2" name="q19" value="Constructor">
+            <label for="q19a2">Constructor</label><br>
+            <input type="radio" id="q19a3" name="q19" value="Destructor">
+            <label for="q19a3">Destructor</label><br>
+            <input type="radio" id="q19a4" name="q19" value="No output">
+            <label for="q19a4">No output</label>
+          
+        
+         
+            <p>20. What is dynamic binding in C++?</p>
+            <input type="radio" id="q20a1" name="q20" value="Binding that occurs at runtime" required>
+            <label for="q20a1">Binding that occurs at runtime</label><br>
+            <input type="radio" id="q20a2" name="q20" value="Binding that occurs at compile time">
+            <label for="q20a2">Binding that occurs at compile time</label><br>
+            <input type="radio" id="q20a3" name="q20" value="Binding that occurs at link time">
+            <label for="q20a3">Binding that occurs at link time</label><br>
+            <input type="radio" id="q20a4" name="q20" value="Binding that occurs at load time">
+            <label for="q20a4">Binding that occurs at load time</label>
+          
+        
+         
+            <p>21. What is a copy constructor in C++?</p>
+            <input type="radio" id="q21a1" name="q21" value="A constructor that initializes an object using another object of the same class" required>
+            <label for="q21a1">A constructor that initializes an object using another object of the same class</label><br>
+            <input type="radio" id="q21a2" name="q21" value="A constructor that initializes an object using a different class">
+            <label for="q21a2">A constructor that initializes an object using a different class</label><br>
+            <input type="radio" id="q21a3" name="q21" value="A constructor that initializes an object with default values">
+            <label for="q21a3">A constructor that initializes an object with default values</label><br>
+            <input type="radio" id="q21a4" name="q21" value="A constructor that creates a copy of a class">
+            <label for="q21a4">A constructor that creates a copy of a class</label>
+          
+        
+         
+            <p>22. What is the output of the following code?<br>
+            #include &lt;iostream&gt;<br>
+            using namespace std;<br>
+            class Base {<br>
+            public:<br>
+                virtual void show() { cout &lt;&lt; "Base"; }<br>
+            };<br>
+            class Derived : public Base {<br>
+            public:<br>
+                void show() { cout &lt;&lt; "Derived"; }<br>
+            };<br>
+            int main() {<br>
+                Base b;<br>
+                Derived d;<br>
+                b.show();<br>
+                d.show();<br>
+                return 0;<br>
+            }
+            </p>
+            <input type="radio" id="q22a1" name="q22" value="BaseDerived" required>
+            <label for="q22a1">BaseDerived</label><br>
+            <input type="radio" id="q22a2" name="q22" value="DerivedDerived">
+            <label for="q22a2">DerivedDerived</label><br>
+            <input type="radio" id="q22a3" name="q22" value="BaseBase">
+            <label for="q22a3">BaseBase</label><br>
+            <input type="radio" id="q22a4" name="q22" value="DerivedBase">
+            <label for="q22a4">DerivedBase</label>
+          
+        
+         
+            <p>23. What is the correct way to declare a constant variable in C++?</p>
+            <input type="radio" id="q23a1" name="q23" value="const int var;" required>
+            <label for="q23a1">const int var;</label><br>
+            <input type="radio" id="q23a2" name="q23" value="int const var;">
+            <label for="q23a2">int const var;</label><br>
+            <input type="radio" id="q23a3" name="q23" value="int var = const;">
+            <label for="q23a3">int var = const;</label><br>
+            <input type="radio" id="q23a4" name="q23" value="const var int;">
+            <label for="q23a4">const var int;</label>
+          
+        
+         
+            <p>24. What is the purpose of the 'new' operator in C++?</p>
+            <input type="radio" id="q24a1" name="q24" value="To allocate memory dynamically" required>
+            <label for="q24a1">To allocate memory dynamically</label><br>
+            <input type="radio" id="q24a2" name="q24" value="To deallocate memory">
+            <label for="q24a2">To deallocate memory</label><br>
+            <input type="radio" id="q24a3" name="q24" value="To create a new class">
+            <label for="q24a3">To create a new class</label><br>
+            <input type="radio" id="q24a4" name="q24" value="To return a pointer">
+            <label for="q24a4">To return a pointer</label>
+          
+        
+         
+            <p>25. What is the difference between 'struct' and 'class' in C++?</p>
+            <input type="radio" id="q25a1" name="q25" value="Members of a struct are public by default, while members of a class are private by default" required>
+            <label for="q25a1">Members of a struct are public by default, while members of a class are private by default</label><br>
+            <input type="radio" id="q25a2" name="q25" value="Members of a struct are private by default, while members of a class are public by default">
+            <label for="q25a2">Members of a struct are private by default, while members of a class are public by default</label><br>
+            <input type="radio" id="q25a3" name="q25" value="There is no difference">
+            <label for="q25a3">There is no difference</label><br>
+            <input type="radio" id="q25a4" name="q25" value="Structs cannot have member functions, but classes can">
+            <label for="q25a4">Structs cannot have member functions, but classes can</label>
+            <br><br>
+            <button type="Submit"> Submit </button>
